@@ -1,0 +1,57 @@
+*vim-lsp-typescript.txt* LSP setup for TypeScript for use in conjuction
+with vim-lsp in Vim 8 or Neovim.
+
+=============================================================================
+CONTENTS                                        *vim-lsp-typescript-contents*
+
+  1. Introduction .......... |vim-lsp-typescript-introduction|
+  2. Install ............... |vim-lsp-typescript-install|
+    a. Plugin .............. |vim-lsp-typescript-install-plugin|
+    b. Language Server ..... |vim-lsp-typescript-install-language-server|
+  3. License ............... |vim-lsp-typescript-license|
+
+=============================================================================
+INTRODUCTION                                *vim-lsp-typescript-introduction*
+
+vim-lsp, https://github.com/prabirshrestha/vim-lsp, is a vim plugin that
+enables the use of use of the Language Service Protocol. vim-lsp-typescript
+provides the language server setup for typescript. So for you to use vim-lsp
+in your TypeScript project, all you need to do is have vim-lsp and
+vim-lsp-typescript installed and you'll have a working setup.
+
+See: :h vim-lsp.txt for more information on that plugin.
+
+=============================================================================
+INSTALL                        		         *vim-lsp-typescript-install*
+
+PLUGIN                                    *vim-lsp-typescript-install-plugin*
+
+To get the full lsp experience (with autocomplete and code navigation
+features). Use the following setup (using vim-plug) to install plugins
+
+  Plug 'prabirshrestha/asyncomplete.vim'
+  Plug 'prabirshrestha/async.vim'
+  Plug 'prabirshrestha/vim-lsp'
+  Plug 'ryanolsonx/vim-lsp-typescript'
+  Plug 'prabirshrestha/asyncomplete-lsp.vim'
+
+
+LANGUAGE SERVER                  *vim-lsp-typescript-install-language-server*
+
+You must install the TypeScript language service so that we can get the LSP
+functionality for TypeScript. To do so, you'll need to:
+
+1. Install NPM and Node.js
+2. Install the language service.
+  
+  npm install -g typescript typescript-language-server
+
+=============================================================================
+LICENSE                        		         *vim-lsp-typescript-license*
+
+The MIT License (MIT)
+
+Full license text:
+https://github.com/ryanolsonx/vim-lsp-typescript/blob/master/LICENSE
+
+vim:tw=78:ts=8:ft=help:norl:noet:fen:
