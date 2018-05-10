@@ -1,6 +1,6 @@
 # vim-lsp-typescript
 
-This is a "batteries included" typescript setup for [vim-lsp](https://github.com/prabirshrestha/vim-lsp).
+Sets up [vim-lsp](https://github.com/prabirshrestha/vim-lsp) for TypeScript.
 
 # Installing
 

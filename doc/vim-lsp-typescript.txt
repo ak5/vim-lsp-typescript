@@ -1,5 +1,4 @@
-*vim-lsp-typescript.txt* LSP setup for TypeScript for use in conjuction
-with vim-lsp in Vim 8 or Neovim.
+*vim-lsp-typescript.txt* Sets up vim-lsp for TypeScript.
 
 =============================================================================
 CONTENTS                                        *vim-lsp-typescript-contents*
